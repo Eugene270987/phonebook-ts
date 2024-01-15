@@ -1,0 +1,21 @@
+.menu__list{
+  padding: 20px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  & li a{
+    text-decoration: none;
+    color: inherit;
+    max-width: 120px;
+    display: block;
+    padding: 10px 15px;
+    background: gold;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
+    &:hover{
+      background: brown;
+    }
+  }
+}

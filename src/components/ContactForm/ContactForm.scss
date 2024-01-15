@@ -1,0 +1,46 @@
+.form{
+  &__inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+  }
+  &__title{
+    text-align: center;
+  }
+}
+
+.input__label{
+  width: 150px;
+}
+
+.button__wrapper{
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.btn-cancel,
+.btn-save{
+  width: 150px;
+  border-radius: 10px;
+  transition: all .3s ease-in-out;
+  &:hover{
+    background: brown;
+  }
+}
+
+.btn-save{
+  background: gold;
+}
+
+.btn-cancel{
+  background: palegoldenrod;
+}
+
+.error{
+  color: red;
+}
